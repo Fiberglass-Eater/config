@@ -1,0 +1,179 @@
+#
+# wm independent hotkeys
+#
+# terminal emulator
+super + Return
+	xst
+
+# program launcher
+super + F1
+	dmenu_run -i -l 17
+
+# File manager
+super + f
+	xst -e lf
+ 
+# Web browser
+super + shift + f
+	firefox -P
+
+# Open a nvim buffer. I write everything in vim and copy/paste to wherever it needs to go. 
+super + shift + t 
+	xst -e nvim /tmp/buffer
+
+# Open up vimwiki to view notes and the like
+super + shift + n 
+	st -e nvim ~/index.md
+# Pulsemixer
+super + control + p
+	xst -e pulsemixer	
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# Screen locking
+F11
+	slock
+#
+# Shutdown
+super + F11 + F12
+	doas shutdown -r now
+
+# Take a screenshot of a selection
+Print
+	maim -s -l -c 0.3,0,0.5,0.3 png && notify-send "Screenshot taken!"
+ 
+# Take a screenshot of a selection, upload to 0x0.st and copy url to clipboard
+shift + Print
+	maim -s -l -c 0.3,0,0.5,0.3 | curl -F "file=@-" 0x0.st | xclip -selection clipboard 
+
+# Pair my airpods 
+super + F8
+	bluetoothctl power on && bluetoothctl connect 4C:6B:E8:17:6C:58
+
+# Increase volume
+alt + u
+	pactl set-sink-volume 0 +5%
+
+# Lower volume
+alt + l
+	pactl set-sink-volume 0 -5%
+
+# Mute volume
+alt + m
+	pactl set-sink-mute 0 toggle
+# Open a wikipedia page with zathura
+super + alt + w
+	wiki
+
+# bspwm hotkeys
+
+#
+
+# quit/restart bspwm
+super + alt + {q,r}
+	bspc {quit,wm -r}
+
+# Move a window and then follow it
+shift + alt + {d,a}
+    dir={next,prev}       ; \
+    bspc node -d    "$dir"; \
+    bspc desktop -f "$dir"
+# close and kill
+super + {_,shift + }grave
+	bspc node -{c,k}
+
+# alternate between the tiled and monocle layout
+super + m
+	bspc desktop -l next
+
+# send the newest marked node to the newest preselected node
+super + y
+	bspc node newest.marked.local -n newest.!automatic.local
+
+# swap the current node and the biggest node
+super + g
+	bspc node -s biggest
+
+#
+# state/flags
+#
+
+# set the window state
+super + {t,shift + t,s,f}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+# set the node flags
+super + ctrl + {m,x,y,z}
+	bspc node -g {marked,locked,sticky,private}
+
+#
+# focus/swap
+#
+
+# focus the node in the given direction
+super + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+
+# focus the node for the given path jump
+super + {p,b,comma,period}
+	bspc node -f @{parent,brother,first,second}
+
+# focus the next/previous node in the current desktop
+super + {_,shift + }c
+	bspc node -f {next,prev}.local
+
+# focus the next/previous desktop in the current monitor
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
+
+# focus the last node/desktop
+super + {grave,Tab}
+	bspc {node,desktop} -f last
+
+# focus the older or newer node in the focus history
+super + {o,i}
+	bspc wm -h off; \
+	bspc node {older,newer} -f; \
+	bspc wm -h on
+
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+#
+# preselect
+#
+
+# preselect the direction
+super + ctrl + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+
+# preselect the ratio
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+# cancel the preselection for the focused node
+super + ctrl + space
+	bspc node -p cancel
+
+# cancel the preselection for the focused desktop
+super + ctrl + shift + space
+	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+#
+# move/resize
+#
+
+# expand a window by moving one of its side outward
+super + alt + {h,j,k,l}
+	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+# contract a window by moving one of its side inward
+super + alt + shift + {h,j,k,l}
+	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+# move a floating window
+super + {Left,Down,Up,Right}
+	bspc node -v {-20 0,0 20,0 -20,20 0}

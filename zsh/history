@@ -1,0 +1,618 @@
+chsh -s $(which zsh)
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \\
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+vim
+w
+top
+v .nv
+zsh
+xin w3m
+xin w3m-img
+neofetch --w3m --source /home/dom/Personal/Images/void-logo.png
+neofetch --w3m --source /home/dom/Personal/Images/
+man neofetc
+xin sixel
+man neofetch
+xin imagemagick
+xq imagemagick
+xin ImageMagick
+neofetch --w3m ~/Personal/void-logo.png
+neofetch --w3m ~/Personal/Images/void-logo.png
+neofetch --w3m ~/Personal/Images/Images/void-logo.png
+w3m google.com
+xin xdottool
+xin xdotool
+xin xwininfo xprop
+\033[14t
+xin \033[14t
+neofetch --w3m
+xin texlive-bin
+xin xdg-open
+xin xdg-utils
+ls -Al
+Discord
+man xi
+xi gnome-icons-full
+xi gnome-icons
+xi adiwata
+xq adiwata
+xq icon
+scrot -s 
+newsboat
+sudo xbps-install -S qt5ct
+sudo xbps-remove -Oo qt5ct
+sudo xbps-remove -ROo qt5ct
+xin adiwaita-icon-theme
+xin adwaita-icon-theme
+xin lxappearance
+man bspwm
+man xrdb
+xin chromium
+xin pavucontrol
+sudo shutdown -r now
+xin spotify-tui spotifyd
+stui
+xq spotify-tui
+spotify-tui
+man spotifyd
+xq sotifyd
+xq spotifyd
+spt
+startx
+scrot -s
+;f
+man xbps.d
+clear
+xrm xdg-utils
+echo $fixed
+cd .config/s
+v config.
+pg
+ls -a | ws -l
+cd st
+fc
+fc-list | grep Unifont
+cd 
+cd Downloads
+tar xvf unifont-12.1.04.pcf.gz
+gunzip unifont-12.1.04.pcf.gz
+sudo lf
+cd
+cd .config/st
+v config.h
+v
+v 
+f 2020-03-25-204038_1920x1080_scrot.png
+cd .config
+l | grep mimi
+sl | grep mimi
+ls | grep mimi
+cd mimi
+ls
+make
+man lf
+lf
+sudo vimsudo
+sudo visudo
+cat /etc/sudoers
+sudo cat /etc/sudoers
+v /etc/sudoers
+v /etc/sudoers.d
+sudo v /etc/sudoers.d
+sudo xbps-install -Su
+sudo vim /etc/sudoers
+su
+xinit
+xup
+man calcurse
+v .zshrc
+cal
+nb
+xrm xterm
+xrm w3m
+xrm w3m w3m-img
+pf
+t
+sudo make install
+exit
+: 1585242210:0;cd .config/dmenu-4.9
+: 1585242212:0;ls
+: 1585242273:0;xin patch
+: 1585242288:0;lf
+: 1585242351:0;patch --merge -i dmenu-fuzzymatch-4.9.diff
+: 1585242379:0;patch --merge -i dmenu-numbers-4.9.diff
+: 1585242392:0;sudo make install
+: 1585242402:0;lf
+: 1585242421:0;ls
+: 1585242423:0;cd
+: 1585242428:0;cd .config/dmenu-4.9
+: 1585242430:0;ls
+: 1585242434:0;lf
+: 1585242458:0;patch --merge -i dmenu-fuzzymatch-4.9.diff
+: 1585242463:0;sudo make install
+: 1585242489:0;lf
+: 1585242510:0;cd
+: 1585242518:0;cd .config/dmenu-4.9
+: 1585242522:0;lf
+: 1585242549:0;patch --merge -i dmenu-lineheight-4.9.diff
+: 1585242554:0;sudo make install
+: 1585242592:0;lf
+: 1585243665:0;spt
+: 1585244927:0;libreoffice
+: 1585248699:0;xin cordless
+: 1585248721:0;cordless
+: 1585248739:0;touch .config/cordless
+: 1585248743:0;lf
+: 1585248762:0;cordless
+: 1585249691:0;xup
+: 1585259721:0;cal
+: 1585259771:0;cordless
+: 1585260177:0;xin pulsemixer
+: 1585260186:0;pulsemixer
+: 1585260195:0;pm
+: 1585261406:0;cordless
+: 1585261766:0;pf
+: 1585261991:0;xrmcordless
+: 1585261994:0;xrm cordless
+: 1585262425:0;xrm pavucontrol
+: 1585262445:0;pf
+: 1585266475:0;echo $
+: 1585266484:0;echo $EDITOR
+: 1585266533:0;printenv
+: 1585266639:0;touch .zshenv
+: 1585266644:0;v .zshenv
+: 1585266744:0;lf
+: 1585266788:0;v .zshenv
+: 1585266797:0;lf
+: 1585267322:0;zsh
+: 1585267377:0;w
+: 1585267396:0;xin curl
+: 1585267407:0;w
+: 1585267412:0;clear
+: 1585267413:0;w
+: 1585267451:0;printenv | more
+: 1585267455:0;printenv | less
+: 1585267468:0;man les
+: 1585267469:0;man less
+: 1585269383:0;cd /tmp
+: 1585269394:0;sudo git clone https://github.com/afraidofmusic/dwmrice.git
+: 1585269399:0;sudo lf
+: 1585269431:0;cd ls -Al
+: 1585269446:0;sudo ls -Al
+: 1585269458:0;cd dwmrice/.themes/Base16-Gruvbox-Dark
+: 1585269460:0;ls
+: 1585269466:0;sudo make
+: 1585269474:0;sudo lf
+: 1585269499:0;cd
+: 1585269508:0;git clone https://github.com/afraidofmusic/dwmrice.git
+: 1585269513:0;cd dwmrice
+: 1585269520:0;cd .themes/Base16-Gruvbox-Dark
+: 1585269526:0;sudo make install
+: 1585269536:0;xin sassc
+: 1585269544:0;sudo make install
+: 1585269561:0;make
+: 1585269574:0;sudo make install
+: 1585269582:0;xin glib-compile-resources
+: 1585269689:0;xinglib2
+: 1585269696:0;xi glib2
+: 1585271118:0;cat /bin/cat
+: 1585271128:0;sudo vim /bin/cat
+: 1585271155:0;cat /boot
+: 1585271159:0;cd /boot
+: 1585271163:0;ls -Al
+: 1585272798:0;scrot -s
+: 1585321742:0;xinit
+: 1585321756:0;cal
+: 1585321818:0;nb
+: 1585322834:0;xin
+: 1585322840:0;xup
+: 1585322958:0;nb
+: 1585323946:0;sudo lf
+: 1585324511:0;man spotifyd
+: 1585328036:0;top
+: 1585340101:0;xup
+: 1585348700:0;startx
+: 1585348708:0;xup
+: 1585348747:0;cal
+: 1585350319:0;lf
+: 1585351209:0;nvim
+: 1585351221:0;lf
+: 1585351361:0;fdisk-l
+: 1585351365:0;fdisk -l
+: 1585351368:0;sudo fdisk -l
+: 1585356783:0;man fdisk
+: 1585357528:0;xrm spotify
+: 1585358834:0;xrm opendoas
+: 1585358843:0;xin opendoas
+: 1585358851:0;doas
+: 1585358859:0;doas lf /mnt
+: 1585358925:0;cat /etc/doas.conf
+: 1585358941:0;sudo vim /etc/doas.conf
+: 1585358950:0;doas lf
+: 1585358959:0;doas ls /mnt
+: 1585358979:0;cat /usr/share/xbps.d
+: 1585358985:0;cd/usr/share/xbps.d
+: 1585358988:0;cd /usr/share/xbps.d
+: 1585358990:0;ls
+: 1585358994:0;doas lf
+: 1585359015:0;doas vim xbps.conf
+: 1585359034:0;xrm sudo
+: 1585359044:0;pf
+: 1585359053:0;xq sudo
+: 1585359055:0;xq doas
+: 1585359062:0;xq opendoa
+: 1585359063:0;xq opendoas
+: 1585359220:0;doas lf
+: 1585361923:0;lf
+: 1585375334:0;top
+: 1585387847:0;xup
+: 1585387856:0;lf
+: 1585387876:0;xup
+: 1585387879:0;zsh
+: 1585387880:0;xup
+: 1585387930:0;doas shutdown or now
+: 1585387933:0;doas shutdown -r now
+: 1585423183:0;xinit
+: 1585423220:0;xup
+: 1585423755:0;spt
+: 1585424009:0;lf
+: 1585424074:0;spt
+: 1585424740:0;spotifyd
+: 1585424950:0;spotifyd --help
+: 1585425112:0;spotifyd
+: 1585425601:0;cat .config/spotifyd/
+: 1585425607:0;cd .config/spotify
+: 1585425616:0;cd .
+: 1585425619:0;cd ..
+: 1585425626:0;cd spotifyd
+: 1585425636:0;touch spopifyd.conf
+: 1585425639:0;spotify
+: 1585425660:0;spotifyd
+: 1585425812:0;man spotifyd
+: 1585425817:0;spotifyd --help
+: 1585425853:0;spotifyd --config-path /home/dom/.config/spotifyd/spotifyd.conf
+: 1585425870:0;xin libcore
+: 1585427936:0;spotifyd
+: 1585427987:0;cal
+: 1585427995:0;top
+: 1585428006:0;lf
+: 1585428017:0;cal
+: 1585446571:0;picom
+: 1585446574:0;xin picom
+: 1585446582:0;picom
+: 1585451296:0;lf
+: 1585452977:0;doas fdisk -l
+: 1585453641:0;pf
+: 1585455708:0;lf
+: 1585455785:0;picom
+: 1585457894:0;lf
+: 1585458083:0;"top"
+: 1585458252:0;top
+: 1585458871:0;lf
+: 1585458938:0;startx
+: 1585465804:0;xup
+: 1585466406:0;zsh
+: 1585466547:0;cd .config
+: 1585466994:0;lf
+: 1585467932:0;xup
+: 1585473824:0;top
+: 1585508644:0;startx
+: 1585508659:0;xup
+: 1585508682:0;top
+: 1585508685:0;lf
+: 1585508721:0;t
+: 1585508723:0;zsh
+: 1585508724:0;t
+: 1585589801:0;xinit
+: 1585589821:0;xup
+: 1585589860:0;nb
+: 1585591635:0;cal
+: 1585592009:0;ls /mnt 
+: 1585592011:0;fuck
+: 1585592016:0;lf
+: 1585592047:0;zsh
+: 1585592048:0;lf
+: 1585592052:0;fuck
+: 1585593810:0;w
+: 1585594055:0;picom
+: 1585594395:0;spt
+: 1585594744:0;spt --help
+: 1585608940:0;xup
+: 1585609360:0;t
+: 1585609368:0;top
+: 1585609394:0;lf
+: 1585609614:0;v
+: 1585610626:0;scrot -s
+: 1585610649:0;lf
+: 1585610678:0;scrot -ss
+: 1585610684:0;kf
+: 1585610686:0;lf
+: 1585632203:0;doas lf
+: 1585632327:0;pf
+: 1585632435:0;sudo lf
+: 1585633151:0;scrot -s
+: 1585633175:0;lf
+: 1585676369:0;xup
+: 1585676401:0;xinit
+: 1585676419:0;picom
+: 1585676434:0;cal
+: 1585676793:0;spt
+: 1585677152:0;nb
+: 1585679598:0;t
+: 1585679969:0;xin 6cord
+: 1585679979:0;6cord
+: 1585681001:0;spt
+: 1585683238:0;xup
+: 1585687668:0;spt
+: 1585687855:0;doas nvim /usr/bin/startx
+: 1585693713:0;scrot -s
+: 1585695520:0;lf
+: 1585697307:0;doas xbps-install -Suv
+: 1585697320:0;lf .config/zhs
+: 1585697325:0;lf .config/zsh
+: 1585700646:0;xq font-tamzen
+: 1585700720:0;fc-cache
+: 1585700734:0;man fc-cache
+: 1585701309:0;startx
+: 1585701506:0;lf
+: 1585701531:0;startx
+: 1585701849:0;cal
+: 1585701852:0;picom
+: 1585752336:0;startx
+: 1585752348:0;picom
+: 1585752351:0;cal
+: 1585752366:0;xup
+: 1585752384:0;xup xbps
+: 1585752398:0;doas xbps-install xbps
+: 1585752406:0;xup
+: 1585752433:0;spt
+: 1585752453:0;nb
+: 1585753141:0;cal
+: 1585753283:0;type fireofox
+: 1585753286:0;type firefox
+: 1585756400:0;picom
+: 1585759710:0;spt
+: 1585759744:0;spotifyd
+: 1585759964:0;xin rust
+: 1585759993:0;spotifyd
+: 1585760025:0;spotifyd RUST_BACKTRACE=1
+: 1585760037:0;spotifyd --help
+: 1585760063:0;spotifyd --no-daemon
+: 1585760090:0;top
+: 1585760168:0;xin dbus
+: 1585767853:0;cd /tmp
+: 1585767854:0;ls
+: 1585767866:0;ls -Al
+: 1585777459:0;xup
+: 1585778344:0;xq alsamixer
+: 1585799280:0;man deb
+: 1585799283:0;xin deb
+: 1585799289:0;xup
+: 1585799679:0;xin dunst
+: 1585799718:0;xin libnotify
+: 1585799735:0;dunst
+: 1585799751:0;top
+: 1585799762:0;t
+: 1585799825:0;notify-send test
+: 1585799843:0;rm notify-osd
+: 1585799848:0;xrm notify-osd
+: 1585799868:0;xrm dunst
+: 1585799883:0;notify-send test
+: 1585799889:0;xin dunst
+: 1585800111:0;pkill dunst
+: 1585800114:0;dunst
+: 1585800128:0;notify-send test
+: 1585800209:0;scrot 
+: 1585800398:0;xin font-fira-code
+: 1585800521:0;v
+: 1585800637:0;doas lf
+: 1585800669:0;chmod +x 0x0
+: 1585800672:0;doas l
+: 1585800673:0;doas lf
+: 1585800711:0;ls
+: 1585800730:0;lf
+: 1585800743:0;0x0 2020-04-02-000329_1920x1080_scrot.png
+: 1585800782:0;lf
+: 1585800831:0;xin font-firacode
+: 1585800870:0;cat /mnt
+: 1585800873:0;v 
+: 1585800895:0;less file
+: 1585800907:0;cat file | less
+: 1585801009:0;lf .config
+: 1585801031:0;man dunst
+: 1585801412:0;v 
+: 1585801447:0;pidof dunst
+: 1585801451:0;dunst
+: 1585801459:0;pidof dunst
+: 1585801543:0;chmod +x dunst-startup
+: 1585801548:0;./dunst-startup
+: 1585801597:0;doas mv dunst-startup /usr/local/bin
+: 1585801608:0;dunst-startup
+: 1585801627:0;lf .config
+: 1585802242:0;v .config/Xresources
+: 1585802348:0;dunst
+: 1585802356:0;pkill dunst
+: 1585802358:0;dunst
+: 1585802365:0;notify-send test
+: 1585802425:0;dunst
+: 1585802428:0;notify-send test
+: 1585802520:0;which firefox
+: 1585803739:0;dunst
+: 1585803744:0;notify-send test
+: 1585803908:0;dunst
+: 1585803911:0;notify-send test
+: 1585803936:0;notify-send I will beat an drob you for lunch and I hate these children
+: 1585803955:0;notify-send "Beat and rob children"
+: 1585803987:0;dunst
+: 1585803989:0;notify-send "Beat and rob children"
+: 1585804029:0;clear
+: 1585804154:0;notify-send "Beat and rob children"
+: 1585848437:0;xup
+: 1585848444:0;startx
+: 1585848455:0;ping google.com
+: 1585848458:0;xup
+: 1585848490:0;cal
+: 1585848532:0;nb
+: 1585849648:0;w
+: 1585849736:0;lf
+: 1585849779:0;zsh
+: 1585849780:0;w
+: 1585849807:0;zsh
+: 1585849808:0;w
+: 1585849836:0;curl wttr.in/?u
+: 1585849839:0;curl wttr.in/?m
+: 1585849841:0;curl wttr.in/
+: 1585849872:0;curl wttr.in/Amsteradam?m
+: 1585849881:0;curl wttr.in/London?m
+: 1585849891:0;curl wttr.in/London
+: 1585849943:0;curl wttr.in/Amsterdam?m
+: 1585849953:0;w
+: 1585849974:0;spt
+: 1585850129:0;picom
+: 1585850197:0;t
+: 1585852053:0;notify-send awoooooooga
+: 1585852060:0;pkill dunst
+: 1585852064:0;dunst
+: 1585852068:0;notify-send awoooooooga
+: 1585852098:0;pkill dunst
+: 1585852226:0;dusnt
+: 1585852230:0;dunst
+: 1585852240:0;notify-send awoooooooag woam
+: 1585852525:0;t
+: 1585853182:0;6cord
+: 1585853195:0;xrm 6cord
+: 1585853203:0;xrm cordless
+: 1585853209:0;pf
+: 1585853239:0;notify-send awooooga
+: 1585925364:0;startx
+: 1585925380:0;picom
+: 1585925383:0;cal
+: 1585925419:0;spt
+: 1585925431:0;xup
+: 1585925466:0;nb
+: 1585944677:0;picom
+: 1585945034:0;cd .
+: 1585945036:0;cd/
+: 1585945039:0;cd /
+: 1585945041:0;ls
+: 1585945045:0;doas lf
+: 1585946096:0;xup
+: 1585946192:0;pf
+: 1585946273:0;v
+: 1585946294:0;pf
+: 1585946346:0;xin panes
+: 1585946452:0;clear
+: 1585946500:0;lf
+: 1585946620:0;v
+: 1585952583:0;antibody bundle < ~/..config/zsh/zsh_plugins.txt > ~/.config/zsh/zsh_plugins.sh
+: 1585952603:0;ls .config/zsh
+: 1585952610:0;antibody bundle < ~/.config/zsh/zsh_plugins.txt > ~/.config/zsh/zsh_plugins.sh
+: 1585952643:0;git config
+: 1585952672:0;git config --global
+: 1585952731:0;clear
+: 1585952939:0;xin thunar
+: 1585952976:0;xin pcmanfm
+: 1585953171:0;lf
+: 1585966067:0;nb
+: 1585971173:0;xin audacity
+: 1585971289:0;t
+: 1585972419:0;doas mount /dev/sdb1 /mnt
+: 1585972421:0;lf
+: 1585975498:0;t
+: 1586025491:0;startx
+: 1586025505:0;picom
+: 1586025512:0;xup
+: 1586025744:0;"cal"
+: 1586030519:0;ps
+: 1586030572:0;cal
+: 1586037223:0;v
+: 1586038578:0;t
+: 1586069773:0;T
+: 1586069776:0;t
+: 1586069782:0;top
+: 1586069945:0;startx
+: 1586069957:0;picom
+: 1586110773:0;startx
+: 1586110790:0;picom
+: 1586110795:0;xup
+: 1586114937:0;picom -b
+: 1586114957:0;lf
+: 1586114993:0;pkill picom
+: 1586115001:0;picom -b
+: 1586115123:0;xin maim
+: 1586115132:0;xrm scrot
+: 1586115151:0;v
+: 1586118105:0;ping google.com
+: 1586142591:0;T
+: 1586142595:0;t
+: 1586196161:0;startx
+: 1586196180:0;picom -b
+: 1586196182:0;xup
+: 1586196316:0;whatis man
+: 1586196345:0;whatis picom
+: 1586196358:0;whatis Discord
+: 1586196364:0;whatis firefox
+: 1586199655:0;cal
+: 1586215040:0;pkill picom
+: 1586217547:0;spt
+: 1586219662:0;doas lf /tmp
+: 1586219834:0;xin libreoffice-impress
+: 1586220125:0;xrm libreoffice-impress
+: 1586220139:0;man xbps-remove
+: 1586220155:0;lf
+: 1586220193:0;man xbps-remove
+: 1586220721:0;pf
+: 1586229129:0;startx
+: 1586229187:0;xrm pcmanfm
+: 1586230142:0;cal
+: 1586230653:0;xin nerdfonts
+: 1586230659:0;xin nerd-fonts
+: 1586231153:0;lf
+: 1586231491:0;doas lf
+: 1586231539:0;lf
+: 1586231547:0;fc-cache
+: 1586231559:0;doas lf /usr/share/fonts
+: 1586231583:0;fc-cache
+: 1586231589:0;lf
+: 1586231615:0;fc-cache
+: 1586231645:0;doas rm fuck
+: 1586231650:0;doas lf
+: 1586231826:0;lf
+: 1586231858:0;;f
+: 1586231860:0;lf
+: 1586231949:0;zsh
+: 1586231950:0;lf
+: 1586232019:0;zsh
+: 1586232020:0;lf
+: 1586268423:0;startx
+: 1586268432:0;picom
+: 1586268437:0;picom -b
+: 1586268459:0;xup
+: 1586268469:0;nb
+: 1586270117:0;cal
+: 1586270299:0;lf
+: 1586270611:0;xin font-awesome5
+: 1586270630:0;pkill polybar
+: 1586272520:0;xrm spotifyd
+: 1586272537:0;xup
+: 1586272899:0;lf
+: 1586273473:0;cd .config/void-packages
+: 1586273479:0;git fetch --prune
+: 1586273495:0;lf
+: 1586273578:0;lf .config/void-packages
+: 1586273823:0;man xbps-query
+: 1586273878:0;doas xbps-query -s libreoffice
+: 1586274722:0;doas xbps-query -Rs libreoffice
+: 1586274775:0;doas xbps-query -Rs libreoffice-i18n
+: 1586274929:0;0x0 INSTALL.msg
+: 1586285784:0;xin gimp
+: 1586285919:0;lf
+: 1586293510:0;xup
+: 1586293523:0;ping google.com
+: 1586293737:0;man iwd
+: 1586293745:0;doas xbps-query iwd
+: 1586293750:0;doas xbps-query -Rs iwd
+: 1586293973:0;pf
+: 1586293984:0;t
+: 1586294003:0;pkill st
+: 1586294020:0;t

@@ -1,0 +1,4 @@
+sxhkd -c /home/dom/sys/config/sxhkd/sxhkdrc &
+exec bspwm -c /home/dom/sys/config/bspwm/bspwmrc
+exec picom -f
+xrdb ~/sys/config/Xresources

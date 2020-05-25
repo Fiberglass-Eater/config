@@ -1,0 +1,45 @@
+[global]
+
+#Basic formatting things
+	font  		   = Fire Code Bold 11px
+	shrink	 	   = true
+
+#Border and color
+	padding 	   = 17
+	horizontal_padding = 17
+	frame_width        = 2
+	frame_color	   = "98971a"
+	seperator_height   = 2
+	seperator_color    = frame
+	geometry = "500x5-40-40"	
+
+	markup             =  full
+	format 		   = "%s\n%b"
+	alignment 	   = center
+	word_wrap 	   = true
+
+#Set dmenu and browser settings
+	dmenu 		   = /usr/local/bin/dmenu
+	browser 	   = /bin/firefox -new-tab
+
+[shortcuts]
+	close 		   = ctrl+space
+	close_all 	   = ctrl+alt+space
+[urgency_low]
+	background 	   = "282828"
+	foreground	   = "ebdbb2"
+	frame_color	   = "98971a"
+	timeout		   = 5
+
+[urgency_normal]
+	background 	   = "282828"
+	foreground 	   = "ebdbb2"
+	border		   = "98971a"
+	timeount 	   = 5
+
+[urgency_critical]
+	background	   = "282828"
+	foreground 	   = "cc241d"
+	border 		   = "cc241d"
+	timeout 	   = 0
+	
