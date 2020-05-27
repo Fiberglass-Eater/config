@@ -99,8 +99,13 @@ let g:vimwiki_list = [{'path': '~/',
 
 "--------------------Extra editing commands -------------------"
 
-" Shortens the commands to copy to system and "mouse" keyboards
+" Shortens the commands to copy to system and "mouse" clipboards
 nnoremap <C-y > "+y
 vnoremap <C-y> "+y
 nnoremap <C-p> "+p
 vnoremap <C-p> "+
+
+nnoremap <A-y > "*y
+vnoremap <A-y> "*y
+nnoremap <A-p> "*p
+vnoremap <A-p> "*
