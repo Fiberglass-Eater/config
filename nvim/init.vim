@@ -95,3 +95,12 @@ let g:vimwiki_list = [{'path': '~/',
 
 " Autoenable spellcheck on markdown and latex files.
 	autocmd BufRead,BufNewfile *.md,*.tex :set spell
+
+
+"--------------------Extra editing commands -------------------"
+
+" Shortens the commands to copy to system and "mouse" keyboards
+nnoremap <C-y > "+y
+vnoremap <C-y> "+y
+nnoremap <C-p> "+p
+vnoremap <C-p> "+
