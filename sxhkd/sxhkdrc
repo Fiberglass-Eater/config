@@ -1,4 +1,3 @@
-#
 # wm independent hotkeys
 #
 # terminal emulator
@@ -15,7 +14,7 @@ super + f
  
 # Web browser
 super + shift + f
-	firefox -P
+	ff -P
 
 # Open a nvim buffer. I write everything in vim and copy/paste to wherever it needs to go. 
 super + shift + t 
@@ -23,7 +22,11 @@ super + shift + t
 
 # Open up vimwiki to view notes and the like
 super + shift + n 
-	st -e nvim ~/index.md
+	xst -e nvim ~/index.md
+
+# Open up my vimwiki daily todo list
+super + shift + m
+	xst -e nvim ~/usr/todo.md
 # Pulsemixer
 super + control + p
 	xst -e pulsemixer	
