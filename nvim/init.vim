@@ -1,4 +1,4 @@
-  set runtimepath^=~/sys/local/vim runtimepath+=~/sys/local/vim/after
+  et runtimepath^=~/sys/local/vim runtimepath+=~/sys/local/vim/after
     let &packpath = &runtimepath
 set number relativenumber
 syntax on 
@@ -12,7 +12,10 @@ call plug#begin('~/sys/local/vim/plugged')
 Plug 'https://github.com/junegunn/goyo.vim.git' 
 Plug 'junegunn/vim-plug'
 Plug 'morhetz/gruvbox'
-Plug 'preservim/nerdtree'
+Plug 'tpope/vim-vinegar'
+Plug 'tpope/vim-surround'
+Plug 'vim-airline/vim-airline'
+Plug 'lilydjwg/colorizer'
 Plug 'lervag/vimtex'
 	let g:tex_flavor='latex'
 	let g:vimtex_view_method='zathura'
@@ -100,12 +103,25 @@ let g:vimwiki_list = [{'path': '~/',
 "--------------------Extra editing commands -------------------"
 
 " Shortens the commands to copy to system and "mouse" clipboards
-nnoremap <C-y > "+y
+nnoremap <C-y> "+y
 vnoremap <C-y> "+y
 nnoremap <C-p> "+p
 vnoremap <C-p> "+
 
-nnoremap <A-y > "*y
+nnoremap <A-y> "*y
 vnoremap <A-y> "*y
 nnoremap <A-p> "*p
 vnoremap <A-p> "*
+
+" Change the commands to swap between splits
+nnoremap <C-j> <C-w>j
+vnoremap <C-j> <C-w>j
+
+nnoremap <C-k> <C-w>k
+vnoremap <C-k> <C-w>k
+
+nnoremap <C-h> <C-w>h
+vnoremap <C-h> <C-w>h
+
+nnoremap <C-l> <C-w>l
+vnoremap <C-l> <C-w>l
