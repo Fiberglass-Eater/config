@@ -1,4 +1,4 @@
-  et runtimepath^=~/sys/local/vim runtimepath+=~/sys/local/vim/after
+  set runtimepath^=~/sys/local/vim runtimepath+=~/sys/local/vim/after
     let &packpath = &runtimepath
 set number relativenumber
 syntax on 
@@ -113,7 +113,7 @@ vnoremap <A-y> "*y
 nnoremap <A-p> "*p
 vnoremap <A-p> "*
 
-" Change the commands to swap between splits
+" Change the commands to swap between splits to control + <hjkl>
 nnoremap <C-j> <C-w>j
 vnoremap <C-j> <C-w>j
 

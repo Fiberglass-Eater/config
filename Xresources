@@ -34,3 +34,11 @@
 ! LightGrey + White
 *color7:  #a89984
 *color15: #ebdbb2
+
+dwm.normfgcolor: #ebdbb2
+dwm.normbgcolor: #282828
+dwm.normalbordercolor: #282828
+dwm.selfgcolor: #98971a
+dwm.selbgcolor: #282828
+dwm.selbordercolor: #98971a
+
