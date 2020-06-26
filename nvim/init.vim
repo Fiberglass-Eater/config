@@ -2,9 +2,11 @@
     let &packpath = &runtimepath
 set number relativenumber
 syntax on 
-let mapleader =" "
+let mapleader =" " " Set leader key to space
 filetype plugin on
 set nocompatible
+set ignorecase	" Ignore case when searching
+set smartcase 	" Ignore case when only lowercase is typed
 "--------------------Plugins--------------------" 
 "Vim-Plug is my plugin manager. Run PlugInstall after adding a new plugin to this list to add it to the system.                   
 call plug#begin('~/sys/local/vim/plugged')
