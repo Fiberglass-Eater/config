@@ -8,7 +8,7 @@ source $XDG_CONFIG_HOME/zsh/zsh_plugins.sh
 alias v="nvim"
 alias z="zathura"
 alias f="feh"
-alias xup="doas xbps-install -Su && doas xbps-remove -O && doas makewhatis /usr/share/man"
+alias xup="doas xbps-install -Su && doas xbps-remove -O && doas makewhatis /usr/share/man && doas kernal-clearing"
 alias xrm="doas xbps-remove -o &&  doas xbps-remove -oy"
 alias xs="doas xbps-query -Rs"
 alias ls="ls -Al --color=auto"
