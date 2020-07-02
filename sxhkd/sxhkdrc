@@ -70,6 +70,13 @@ alt + m
 super + alt + w
 	wiki
 
+# Raise the brightness of laptop screens
+XF86MonBrightnessUp
+	xbacklight -inc 10
+
+# Increase the brightness of laptop screens
+XF86MonBrightnessDown
+	xbacklight -dec 10
 # bspwm hotkeys
 
 #
