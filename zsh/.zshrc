@@ -15,6 +15,7 @@ alias ls="ls -Al --color=auto"
 alias make="make -j$(nproc)"
 alias cds="cd $HOME/edu"
 alias t="trans"
+alias cdc="cd $HOME/sys/config/"
 #alias startx="\/usr/bin/nohup \/usr/bin/startx & exit"
 
 # Setup vi mode and its keybindings
