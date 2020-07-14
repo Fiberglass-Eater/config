@@ -29,6 +29,13 @@ Plug 'vimwiki/vimwiki'
 	let g:UltiSnipsJumpForwardTrigger="<c-b>"
 	let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 	let g:UltiSnipsEditSplit="vertical"
+Plug 'SirVer/ultisnips'
+	let g:UltiSnipsExpandTrigger="<tab>"
+	let g:UltiSnipsJumpForwardTrigger="<c-b>"
+	let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+	let g:UltiSnipsEditSplit="vertical"
+Plug 'honza/vim-snippets'
+
 call plug#end()
 
 "Goyo centers the text in a doc allowing for easy readability after pressing "Space + g

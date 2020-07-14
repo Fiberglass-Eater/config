@@ -9,6 +9,7 @@ export XDG_DATA_HOME="$HOME/sys/local"
 export IMPUTRC="$XDG_CONFIG_HOME/imputrc"
 export CARGO_HOME="$XDG_DATA_HOME/cargo"
 export RUSTUP_HOME="$XDG_DATA_HOME/rustup"
+export EDITOR="nvim"
 
 # Autostart Xorg on login.
 [ "$(tty)" = "/dev/tty1" ] && ! pidof Xorg >/dev/null 2>&1  && exec sx
